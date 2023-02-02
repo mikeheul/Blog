@@ -62,6 +62,20 @@ header video {
     object-fit: cover;
 }
 
+.button {
+    display: inline-flex;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 20px 50px;
+    background: rgb(28, 93, 86);
+    color: #fff;
+    text-decoration: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.button:hover {
+    background: rgb(21, 71, 66);
+}
+
 .overlay {
     position: absolute;
     top: 0;
