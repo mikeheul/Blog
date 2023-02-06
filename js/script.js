@@ -78,6 +78,16 @@ let dataArticles = {
         "likes": 231,
         "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dotempor incididunt ut. labore et dolore magna aliqua. Ut enim ad minim veniam",
     },
+
+    9: {
+        "category": "food",
+        "img": "blog9",
+        "title": "Food, food, food",
+        "user": "quentin",
+        "date": "March 26th, 2023",
+        "likes": 745,
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dotempor incididunt ut. labore et dolore magna aliqua. Ut enim ad minim veniam",
+    },
 }
 
 const blogs = document.querySelector(".blog .row")
@@ -94,9 +104,9 @@ for(article in dataArticles) {
         "<div class='title'>" +
             "<h3>" + dataArticles[article].title + "</h3>" +
             "<p>" +
-                "<span><i class='fa-regular fa-user'></i> By " + dataArticles[article].user + "</span>" +
-                "<span><i class='fa-regular fa-calendar'></i> " + dataArticles[article].date + "</span>" +
-                "<span><i class='fa-regular fa-heart'></i> " + dataArticles[article].likes + "</span>" +
+                "<span><i class='fa-regular fa-user'></i>&nbsp;&nbsp;By " + dataArticles[article].user + "</span>" +
+                "<span><i class='fa-regular fa-calendar'></i>&nbsp;&nbsp;" + dataArticles[article].date + "</span>" +
+                "<span><i class='fa-regular fa-heart'></i>&nbsp;&nbsp;" + dataArticles[article].likes + "</span>" +
             "</p>" +
         "</div>" +
         "<div class='category " + dataArticles[article].category + "'>" +
