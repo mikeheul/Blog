@@ -2,10 +2,80 @@ let dataArticles = {
     1: {
         "category": "photography",
         "img": "blog1",
-        "title": "Mon test",
+        "title": "China Trip",
+        "user": "micka",
+        "date": "January 1st, 2023",
+        "likes": 123,
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dotempor incididunt ut. labore et dolore magna aliqua. Ut enim ad minim veniam",
+    },
+    
+    2: {
+        "category": "food",
+        "img": "blog2",
+        "title": "Asian Food",
         "user": "quentin",
         "date": "February 2nd, 2023",
-        "likes": 111,
+        "likes": 850,
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dotempor incididunt ut. labore et dolore magna aliqua. Ut enim ad minim veniam",
+    },
+    
+    3: {
+        "category": "nature",
+        "img": "blog3",
+        "title": "Discover San Francisco",
+        "user": "micka",
+        "date": "February 3rd, 2023",
+        "likes": 511,
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dotempor incididunt ut. labore et dolore magna aliqua. Ut enim ad minim veniam",
+    },
+    
+    4: {
+        "category": "lifestyle",
+        "img": "blog4",
+        "title": "Sports !",
+        "user": "quentin",
+        "date": "February 2nd, 2023",
+        "likes": 151,
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dotempor incididunt ut. labore et dolore magna aliqua. Ut enim ad minim veniam",
+    },
+    
+    5: {
+        "category": "nature",
+        "img": "blog5",
+        "title": "Winter, Castles and so on",
+        "user": "micka",
+        "date": "February 12nd, 2023",
+        "likes": 88,
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dotempor incididunt ut. labore et dolore magna aliqua. Ut enim ad minim veniam",
+    },
+    
+    6: {
+        "category": "food",
+        "img": "blog6",
+        "title": "Sashimi time",
+        "user": "quentin",
+        "date": "February 25th, 2023",
+        "likes": 189,
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dotempor incididunt ut. labore et dolore magna aliqua. Ut enim ad minim veniam",
+    },
+    
+    7: {
+        "category": "photography",
+        "img": "blog7",
+        "title": "Architectural Photography Tips",
+        "user": "micka",
+        "date": "March 2nd, 2023",
+        "likes": 200,
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dotempor incididunt ut. labore et dolore magna aliqua. Ut enim ad minim veniam",
+    },
+    
+    8: {
+        "category": "nature",
+        "img": "blog8",
+        "title": "Forest lights",
+        "user": "quentin",
+        "date": "March 24th, 2023",
+        "likes": 231,
         "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dotempor incididunt ut. labore et dolore magna aliqua. Ut enim ad minim veniam",
     },
 }
@@ -44,34 +114,6 @@ for(article in dataArticles) {
 
     blogs.appendChild(blog_article)
 }
-
-/* <div class="blog-article col-4 photography">
-    <div class="blog-img">
-        <img src="img/blog1.jpg" alt="blog1">
-        <div class="overlay-img"></div>
-        <div class="title">
-            <h3>China Trip</h3>
-            <p>
-                <span><i class="fa-regular fa-user"></i> By micka </span>
-                <span><i class="fa-regular fa-calendar"></i> January 1st, 2023</span>
-                <span><i class="fa-regular fa-heart"></i> 123</span>
-            </p>
-        </div>
-        <div class="category photography">
-            <span>Photography</span>
-        </div>
-    </div>
-    <div class="blog-text">
-        <p class="text-content">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dotempor incididunt ut. labore et dolore magna aliqua. Ut enim ad minim veniam
-        </p>
-        <p class="read">
-            <a href="">Read More <i class="fa-solid fa-arrow-right"></i></a>
-        </p>
-    </div>
-</div> */
-
-
 
 window.addEventListener("DOMContentLoaded", () => {
 
