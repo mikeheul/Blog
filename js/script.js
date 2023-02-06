@@ -6,7 +6,7 @@ let dataArticles = {
         "user": "micka",
         "date": "January 1st, 2023",
         "likes": 123,
-        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dotempor incididunt ut. labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam officiis recusandae adipisci, esse ad quisquam quis enim architecto rem expedita ducimus commodi dolorem sed consequuntur cumque molestias minima vel animi",
     },
     
     2: {
@@ -115,7 +115,7 @@ for(article in dataArticles) {
     "</div>" +
     "<div class='blog-text'>" +
         "<p class='text-content'>" +
-            dataArticles[article].text
+            dataArticles[article].text + 
         "</p>" +
         "<p class='read'>" +
             "<a href=''>Read More <i class='fa-solid fa-arrow-right'></i></a>" +
