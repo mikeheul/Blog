@@ -197,4 +197,18 @@ window.addEventListener("DOMContentLoaded", () => {
             logo.style.color = "white";
         }
     })
+
+    const play = document.querySelector(".play")
+    const video = document.querySelector("video")
+
+    play.addEventListener("click", () => {
+        if(video.paused) {
+            video.play()
+            // video.muted = !video.muted
+            play.querySelector("p").innerHTML = "<i class='fa-solid fa-pause'></i>"
+        } else {
+            video.pause()
+            play.querySelector("p").innerHTML = "<i class='fa-solid fa-play'></i>"
+        }
+    })
 })
